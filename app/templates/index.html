@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Welcome to the Sentiment Analysis App!</h2>
+    <p>Login or register to analyze the sentiment of your text.</p>
+    <a href="{{ url_for('register') }}" class="btn">Get Started</a>
+</div>
+{% endblock %}
